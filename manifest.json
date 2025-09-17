@@ -1,0 +1,16 @@
+{
+  "short_name": "AI Broadcaster",
+  "name": "AI Multi-Session Broadcaster",
+  "description": "An application to manage and interact with multiple AI provider web sessions simultaneously. Type a prompt once, and easily use it across selected AI webviews without needing provider API keys.",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1F2937",
+  "background_color": "#111827"
+}

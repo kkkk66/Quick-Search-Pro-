@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Multi-Session Broadcaster</title>
+
+    <!-- PWA & SEO -->
+    <meta name="description" content="An application to manage and interact with multiple AI provider web sessions simultaneously." />
+    <meta name="theme-color" content="#1F2937" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-app-url.com/" />
+    <meta property="og:title" content="AI Multi-Session Broadcaster" />
+    <meta property="og:description" content="Manage and interact with multiple AI provider web sessions simultaneously." />
+    <meta property="og:image" content="https://your-app-url.com/logo.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-app-url.com/" />
+    <meta property="twitter:title" content="AI Multi-Session Broadcaster" />
+    <meta property="twitter:description" content="Manage and interact with multiple AI provider web sessions simultaneously." />
+    <meta property="twitter:image" content="https://your-app-url.com/logo.svg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <style>
+      body {
+        overscroll-behavior: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
