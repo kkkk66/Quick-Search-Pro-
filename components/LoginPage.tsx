@@ -29,7 +29,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
   const googleButtonRef = useRef<HTMLDivElement>(null);
   // FIX: Removed 'process.env' which causes a runtime error in the browser.
   // Replace the placeholder with your actual Google Client ID.
-  const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID_GOES_HERE';
+  const GOOGLE_CLIENT_ID = '714614936726-d6iptcpk0v940e5qf74edmptvqi8lva8.apps.googleusercontent.com';
 
   useEffect(() => {
     if (typeof google === 'undefined' || !googleButtonRef.current) {
